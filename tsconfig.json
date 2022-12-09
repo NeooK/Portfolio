@@ -18,8 +18,3 @@
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }
-{
-  "compilerOptions": {
-      "typeRoots": ["types.d.ts"]
-  },
-}
