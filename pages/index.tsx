@@ -16,6 +16,7 @@ import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
+import Pdf from "../public/doc/CV.pdf";
 import {useState} from "react";
 
 export default function Home() {
@@ -58,59 +59,58 @@ export default function Home() {
 
         <section>
           <div>
-            <h3 className="text-3xl py-1">Servises I offer</h3>
+            <h3 className="text-3xl py-1 dark:text-white">Servises I offer</h3>
             <p className="text-md py-2 leanding-8 text-gray-80 dark:text-gray-200">
-              Since the beginning of my jorneyas a freelance designer
+              Since the beginning of my jorney as a freelance
               developer, I've done remote work for 
               <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500"> startups </span>
               and collaborated with talanted people to create digital products
               for both business and consumer use.
             </p>
-            <p className="text-md py-2 leading-8 text-gray-800">
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-400">
               I ofer from a wide range of services, including brand designe,
-              programming and teaching.
+              <span className="text-teal-700 text-lg"> programming </span> and <span className="text-teal-700 text-lg"> testing </span>.
             </p>
            <div className="lg:flex gap-10">
-             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-200">
                <Image src={designe} width={100} height={100} className="display: inline-block"/>
                <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Designe</h3>
                <p className="py-2">
-                 Creating elegant designs suited for your needs following core designe theory.
+                Creating elegant designs suited to your needs following core design theory.
                </p>
-               <h4 className="py-4 text-teal-500">Designe too I use</h4>
+               <h4 className="py-4 text-teal-500 font-medium">Designe tools I use</h4>
+               <p className="tex-gray-800 py-2">Figma</p>
                <p className="tex-gray-800 py-2">Illustrator</p>
-               <p className="tex-gray-800 py-2">Figma</p>
-               <p className="tex-gray-800 py-2">Figma</p>
              </div>
-             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-               <Image src={code} width={100} height={100} className="display: inline-block"/>
-               <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Designe</h3>
+             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-200">
+              <Image src={code} width={100} height={100} className="display: inline-block"/>
+               <h3 className="text-lg font-medium pt-8 pb-2">Fast and adaptive </h3>
                <p className="py-2">
-                 Creating elegant designs suited for your needs following core designe theory.
+                Creating a website with a responsive view (for phones, and tablets) and fast loading.
                </p>
-               <h4 className="py-4 text-teal-500">Designe too I use</h4>
-               <p className="tex-gray-800 py-2">Illustrator</p>
-               <p className="tex-gray-800 py-2">Figma</p>
-               <p className="tex-gray-800 py-2">Figma</p>
+               <h4 className="py-4 text-teal-500 font-medium">Tools I use</h4>
+                <p className="tex-gray-800 py-2">Google DevTools</p>
+                <p className="tex-gray-800 py-2">Google PageSpeed</p>
              </div>
-             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-200">
                <Image src={consulting} width={100} height={100} className="display: inline-block"/>
-               <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Designe</h3>
+               <h3 className="text-lg font-medium pt-8 pb-2">Clean and uderdtanding code</h3>
                <p className="py-2">
-                 Creating elegant designs suited for your needs following core designe theory.
+                  Expanding your website to be more functional, faster, and modern. With clean code.
                </p>
-               <h4 className="py-4 text-teal-500">Designe too I use</h4>
-               <p className="tex-gray-800 py-2">Illustrator</p>
-               <p className="tex-gray-800 py-2">Figma</p>
-               <p className="tex-gray-800 py-2">Figma</p>
+               <h4 className="py-4 text-teal-500 font-medium">Tools I use</h4>
+                <p className="tex-gray-800 py-2">Google DevTools</p>
+                <p className="tex-gray-800 py-2">Google PageSpeed</p>
+                <p className="tex-gray-800 py-2">Figma</p>
+                <p className="tex-gray-800 py-2">Illustrator</p>
              </div>
            </div>
          </div>
         </section>
         <section>
         <div>
-            <h3 className="text-3xl py-1">Servises I offer</h3>
+            <h3 className="text-4xl py-1 text-teal-400 font-medium">Portfolio</h3>
             <p className="text-md py-2 leanding-8 text-gray-80 dark:text-gray-200">
               Since the beginning of my jorneyas a freelance designer
               developer, I've done remote work for 
@@ -118,10 +118,6 @@ export default function Home() {
               consulted for <span className="text-teal-500"> startups </span>
               and collaborated with talanted people to create digital products
               for both business and consumer use.
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800">
-              I ofer from a wide range of services, including brand designe,
-              programming and teaching.
             </p>
            </div>
            <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
